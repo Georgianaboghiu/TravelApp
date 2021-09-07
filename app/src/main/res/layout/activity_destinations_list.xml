@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DestinationsList">
+
+    <android.widget.SearchView
+        android:id="@+id/searhc_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search city"
+        app:iconifiedByDefault="false"
+        android:layout_margin="2dp"
+
+        />
+
+
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/searchFilter"/>
+
+
+    <ListView
+        android:id="@+id/lw_city"
+        android:layout_width="wrap_content"
+        android:layout_height="595dp"
+        android:layout_margin="2dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load more"
+        android:gravity="center"
+        />
+
+</LinearLayout>

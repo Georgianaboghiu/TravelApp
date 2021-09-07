@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CurrencyActivity"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/backCurrency"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/back2" />
+    <TextView
+        android:fontFamily="@font/carter_one"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Currency Converter"
+        android:textSize="30dp"
+        android:textColor="@color/caram"
+        />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/money"
+        android:layout_marginStart="280dp"
+        />
+
+    <LinearLayout
+        android:layout_width="279dp"
+        android:layout_height="346dp"
+        android:layout_gravity="center"
+       android:layout_marginTop="-0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Currency to be converted"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/currency_to_be_converted"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="From Currency:"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_spinner">
+
+            <Spinner
+                android:id="@+id/convert_from"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="To Currency:"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_spinner">
+
+            <Spinner
+                android:id="@+id/convert_to"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circlebutton"
+        android:fontFamily="@font/armata"
+        android:text="Convert"
+        android:textColor="@color/caram"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="154dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="-20dp"
+        app:srcCompat="@drawable/calculator"
+        android:layout_marginTop="-30dp"
+        />
+
+    <EditText
+
+        android:id="@+id/currency_converted"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Result"
+        android:textAlignment="center"
+        />
+
+
+
+</LinearLayout>

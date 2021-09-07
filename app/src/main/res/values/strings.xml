@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">PlanificareExcursii</string>
+    <string name="h_user">enter username</string>
+    <string name="h_pass">enter password</string>
+    <string name="cb_show_password">show password</string>
+    <string name="logged_in">keep me logged in</string>
+    <string name="btn_login">log in</string>
+    <string name="btn_signin">sign in</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="amsterdam">
+
+        Amsterdam is the capital and most populous city of the Netherlands with a population of 872,680 within the city proper, 1,558,755 in the urban area and 2,480,394 in the metropolitan area.
+        Found within the province of North Holland, Amsterdam is colloquially referred to as the "Venice of the North", attributed by the large number of canals which form a UNESCO World Heritage Site.
+
+        Amsterdam was founded at the Amstel, that was dammed to control flooding, and the city name derives from the Amstel dam. Originating as a small fishing village in the late 12th century,
+        Amsterdam became one of the most important ports in the world during the Dutch Golden Age of the 17th century, and became the leading centre for finance and trade.In the 19th and 20th centuries, the city expanded and many new neighbourhoods and suburbs were planned and built. The 17th-century canals of Amsterdam and the 19–20th century Defence
+        Line of Amsterdam are on the UNESCO World Heritage List. Sloten, annexed in 1921 by the municipality of Amsterdam, is the oldest part of the city, dating to the 9th century.
+
+    </string>
+
+    <string name="athens">
+     Athens  is the capital and largest city of Greece. Athens dominates the Attica region and is one of the world oldest cities,
+        with its recorded history spanning over 3,400 years[citation needed] and its earliest human presence started somewhere between the 11th and 7th millennium BC.
+
+Classical Athens was a powerful city-state. A center for the arts, learning and philosophy,
+        home of Plato Academy and Aristotles Lyceum, it is widely referred to as the cradle of Western
+        civilization and the birthplace of democracy, largely because of its cultural and political impact on the European continent, and in particular
+        the Romans. In modern times, Athens is a large cosmopolitan metropolis and central to
+        economic, financial, industrial, maritime, political and cultural life in Greece.
+    </string>
+
+    <string name="barcelona">
+Barcelona is a city on the coast of northeastern Spain.
+        It is the capital and largest city of the autonomous community of Catalonia, as well as the second most populous municipality of Spain. With
+        a population of 1.6 million within city limits, its urban area extends to numerous neighbouring municipalities within the Province of Barcelona and
+        is home to around 4.8 million people,[3] making it the fifth most populous urban area in the European Union after Paris, the Ruhr area, Madrid, and Milan.
+        It is one of the largest metropolises on the Mediterranean Sea, located on the coast between the mouths of the rivers Llobregat and Besòs, and bounded to the west by the Serra de Collserola mountain range,
+        the tallest peak of which is 512 metres (1,680 feet) high.
+
+    </string>
+
+    <string name="bologna">
+
+        Bologna is the capital and largest city of the Emilia-Romagna region in Northern Italy. It is the seventh most populous city in Italy with about
+        390,000 inhabitants and 150 different nationalities.[4] Its metropolitan area is home to more than 1,000,000 people. Originally Etruscan, the city has been one of the most important urban centres for centuries,
+        first under the Etruscans (who called it
+        Felsina), then under the Celts as Bona, later under the Romans (Bonōnia), then again in the Middle Ages, as a free municipality and
+        signoria, when it was among the largest European cities by population. Famous for its towers, churches and lengthy porticoes, Bologna
+        has a well-preserved historical centre, thanks to a careful restoration and conservation policy which began at the end of the 1970s.
+        Home to the oldest university in the Western world, the University of Bologna, established in AD 1088, the city has a large student population that gives
+        it a cosmopolitan character. In 2000 it was declared European capital of culture and in 2006, a UNESCO "City of Music" and became part of the Creative Cities Network.
+
+    </string>
+    <string name="bratislava">
+Bratislava is the capital and largest city of Slovakia. Officially, the population of the city is about 430,000; however, it is estimated to
+        be more than 660,000 - approximately 150% of the official figures.[6] Bratislava is in southwestern Slovakia at the foot of Little Carpathians,
+        occupying both banks of the River Danube and the left bank of the River Morava. Bordering Austria and Hungary, it is the only national capital that borders two sovereign states.
+    </string>
+
+
+    <string name="budapesta">
+Budapest is the capital and the most populous city of Hungary, and the ninth-largest city in the European Union by population within city limits. The city has an
+        estimated population of 1,752,286 over a land area of about 525 square kilometres (203 square miles).[13] Budapest
+        is both a city and county, and forms the centre of the Budapest metropolitan area,
+        which has an area of 7,626 square kilometres (2,944 square miles) and a population of 3,303,786, comprising 33% of the population of Hungary.
+    </string>
+    <string name="cluj">
+Cluj-Napoca, commonly known as Cluj, is the fourth-most populous city in Romania. It is the seat of Cluj County in the northwestern part of the country.
+        Geographically, it is roughly equidistant from Bucharest (445 kilometres (277 miles)), Budapest (461 km (286 mi)) and Belgrade (483 km (300 mi)).
+        Located in the Someșul Mic river valley, the city is considered the unofficial
+        capital to the historical province of Transylvania. From 1790 to 1848
+        and from 1861 to 1867, it was the official capital of the Grand Principality of Transylvania.
+    </string>
+
+    <string name="constanta">
+Constanța, historically known as Tomis (Ancient Greek: Τόμις),[8] is the oldest continuously inhabited city in Romania. It was founded around 600 BC.
+        The city is located in the Northern Dobruja region of Romania, on the Black Sea coast. It is the capital of Constanța County and the largest city in the historical region of Dobruja.
+    </string>
+
+    <string name="copenhaga">
+Copenhagena is the capital and most populous city of Denmark.
+        As of 1 January 2020, the city had a population of 794,128 with 632,340 in Copenhagen Municipality, 104,305 in
+        Frederiksberg Municipality, 42,989 in Tårnby Municipality, and 14,494 in Dragør Municipality. It forms
+        the core of the wider urban area of Copenhagen (population 1,330,993) and the Copenhagen metropolitan area (population 2,057,142). Copenhagen is situated on the eastern coast of the island of
+        Zealand; another portion of the city is located on Amager, and it is separated from Malmö, Sweden, by the strait of Øresund. The Øresund Bridge connects the two cities by rail and road.
+
+    </string>
+
+    <string name="dortmund">
+Dortmund is the third-largest city in North Rhine-Westphalia after Cologne and Düsseldorf, and the eighth-largest city of Germany,
+        with a population of 588,250 inhabitants as of 2021. It is the largest city (by area and population) of the Ruhr, Germany largest urban area with some 5.1 million inhabitants, as well as the largest city of Westphalia. On the Emscher and Ruhr rivers (tributaries of the Rhine), it lies in the Rhine-Ruhr Metropolitan
+        Region and is considered the administrative, commercial, and cultural center of the eastern Ruhr. Dortmund is
+        the second-largest city in the Low German dialect area after Hamburg.
+    </string>
+
+
+    <string name="florence">
+
+        Florence is a city in Central Italy and the capital city of
+        the Tuscany region. It is the most populated city in Tuscany, with 383,084 inhabitants in 2013, and over 1,520,000 in its metropolitan area.
+
+Florence was a centre of medieval European trade and finance and one of the wealthiest cities of that era. It is considered by many academics to have been the birthplace of the Renaissance, and has been called "the Athens of the Middle Ages". Its turbulent political history includes
+        periods of rule by the powerful Medici family and numerous religious and republican revolutions. From 1865 to 1871 the city served as the capital
+        of the Kingdom of Italy (established in 1861). The Florentine dialect forms the base of Standard Italian and it became
+        the language of culture throughout Italy due to the prestige of the masterpieces by Dante Alighieri, Petrarch, Giovanni Boccaccio, Niccolò Machiavelli and Francesco Guicciardini.
+    </string>
+
+
+    <string name="iasi">
+        Iași,
+        also referred to as Jassy, is the second largest city in Romania and the seat of Iași County.
+        Located in the historical region of Moldavia, Iași has traditionally been one of the leading centres
+        of Romanian social, cultural, academic and artistic life. The city was the capital of the Principality
+        of Moldavia from 1564 to 1859, then of the United Principalities from 1859 to 1862, and the capital of Romania from 1916 to 1918.
+
+Known as The Cultural Capital of Romania, Iași is a symbol in Romanian history. The historian Nicolae Iorga said "There should
+        be no Romanian who does not know of it". Still referred to as The Moldavian Capital, Iași is the main economic and business
+        centre of the Moldavian region of Romania. In December 2018, Iași was officially declared Historical capital of Romania.
+
+    </string>
+
+
+    <string name="milan">
+
+        Milan is a city in northern Italy, capital of Lombardy, and the second-most populous city
+        in Italy after Rome. Milan served as the capital of the Western Roman Empire, the Duchy of Milan and the Kingdom of
+        Lombardy–Venetia. The city proper has a population of about 1.4 million while its metropolitan city has 3.26 million
+        inhabitants. Its continuously built-up urban area, that stretches well beyond the boundaries of the administrative metropolitan city,
+        is the fourth largest in the EU with 5.27 million inhabitants. The population within the wider Milan metropolitan area, also known as
+        Greater Milan, is estimated at 8.2 million, making it by far the largest metropolitan area in Italy and the 3rd largest in the EU.
+    </string>
+
+    <string name="munich">
+        Munich (German: München) is the capital and most populous city of Bavaria.
+        With a population of 1,558,395 inhabitants as of July 31, 2020, it is the third-largest city in Germany,
+        after Berlin and Hamburg, and thus the largest which does not constitute its own state, as well as the 11th-largest city in the European Union. The city
+        metropolitan region is home to 6 million people.
+
+Straddling the banks of the River Isar (a tributary of the Danube) north of the Bavarian Alps, it is the seat of the Bavarian administrative region of Upper
+        Bavaria, while being the most densely populated municipality in Germany (4,500 people per km2). Munich is the second-largest city in the Bavarian dialect area, after the Austrian capital of Vienna.
+
+    </string>
+    <string name="naples">
+        Naples is the regional capital of Campania and the third-largest city of
+        Italy, after Rome and Milan, with a population of 967,069 within the city administrative limits as of 2017. Its
+        province-level municipality is the third-most populous metropolitan city in Italy with a population of 3,115,320 residents, and its metropolitan area
+        (that stretches beyond the boundaries of the Metropolitan City of Naples) is the second-most populous metropolitan area in Italy and the 7th-most populous urban area in the European Union.
+
+    </string>
+    <string name="paris">
+        Paris is the capital and most populous city of
+        France, with an estimated population of 2,175,601 residents as of 2018, in an area of more than 105 square
+        kilometres (41 square miles). Since the 17th century, Paris has been one of Europe major centres of finance,
+        diplomacy, commerce, fashion, science and arts. The City of Paris is the centre and seat of government of the Île-de-France,
+        or Paris Region, which has an estimated official 2017 population of 12,174,880, or about 18 percent of the population of France.
+        The Paris Region had a GDP of €709 billion ($808 billion) in 2017. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second most expensive city in the world,
+        after Singapore, and ahead of Zürich, Hong Kong, Oslo and Geneva. Another source ranked Paris as most
+        expensive, on a par with Singapore and Hong Kong, in 2018.
+
+    </string>
+    <string name="prague">
+        Prague is the capital and largest city in the Czech Republic, the 13th largest city in
+        the European Union and the historical capital of Bohemia. Situated on the Vltava river, Prague is home to about 1.3 million people, while its
+        metropolitan area is estimated to have a population of 2.7 million. The city has a temperate oceanic climate, with relatively warm summers and chilly winters.
+Prague is a political, cultural and economic centre of central Europe complete with a rich history. Founded during the Romanesque and flourishing by the Gothic,
+        Renaissance and Baroque eras, Prague was the capital of the Kingdom of Bohemia and the main residence of several Holy Roman Emperors, most notably of Charles IV (r. 1346–1378).
+
+    </string>
+
+    <string name="rome">
+Rome is the capital city and a special comune of Italy (named Comune di Roma Capitale), as well as the capital of the Lazio region.
+        The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi), it is also the country
+        most populated comune. It is the third most populous city in the European Union by population within city limits. It is the centre of the Metropolitan
+        City of Rome, which has a population of 4,355,725 residents, thus making it the most populous metropolitan city in Italy. Its metropolitan area is the
+        third-most populous within Italy. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the
+        Tiber. Vatican City (the smallest country in the world)[4] is an independent country inside
+        the city boundaries of Rome, the only existing example of a country within a city; for
+        this reason Rome has sometimes been defined as the capital of two states.
+    </string>
+    <string name="thessaloniki">
+Thessaloniki is the second-largest city in Greece, with over 1 million inhabitants in
+        its metropolitan area, and the capital of the geographic region of Macedonia, the administrative region of Central Macedonia and the Decentralized
+        Administration of Macedonia and Thrace. It is also known in Greek as η Συμπρωτεύουσα (i Simprotévousa), literally "the co-capital", a reference to its historical status
+        as the Συμβασιλεύουσα (Simvasilévousa) or "co-reigning" city of the Eastern Roman (Byzantine) Empire, alongside Constantinople.
+    </string>
+    <string name="seville">
+Seville is the capital and largest city
+        of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the
+        River Guadalquivir, in the southwest of the Iberian Peninsula.
+
+Seville has a municipal population of about 690,000 as of 2016, and a metropolitan population of about 1.5 million, making it the
+        largest city in Andalusia, the fourth-largest city in Spain and the 30th most populous municipality in the European Union.
+        Its old town, with an area of 4 square kilometres (2 sq mi), contains three UNESCO World Heritage Sites: the Alcázar palace complex, the Cathedral and the General Archive of the Indies.
+
+    </string>
+    <string name="sofia">
+Sofia is the capital and largest city of Bulgaria. It is situated in the eponymous valley at the foot of the Vitosha mountain in the western
+        parts of the country. The city is built west of the Iskar river, and has many mineral springs, such as the Sofia Central Mineral Baths.
+        It has a humid continental climate. Being in the centre of the Balkans, it is midway between the Black Sea and the Adriatic Sea, and
+        closest to the Aegean Sea.
+    </string>
+    <string name="stockholm">
+Stockholm is the capital of Sweden. It has the most populous urban area in Sweden as well as in Scandinavia. 1 million
+        people live in the municipality, approximately 1.6 million in the urban area, and 2.4 million in the metropolitan
+        area. The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Outside the city to the east,
+        and along the coast, is the island chain of the Stockholm archipelago. The area has been settled
+        since the Stone Age, in the 6th millennium BC, and was founded as a city in 1252 by Swedish statesman Birger Jarl. It is also the county seat of Stockholm County.
+    </string>
+    <string name="timisoara">
+Timișoara is the capital city of Timiș County and the main economic, social and cultural center in western Romania. Located on the Bega River, Timișoara is considered the informal capital
+        city of the historical Banat. From 1848 to 1860 it was the capital of the Serbian Vojvodina and the Voivodeship of Serbia and Banat of Temeschwar.
+    </string>
+    <string name="turin">
+Turin is a city and an important business and cultural centre in northern Italy. It is the capital
+        city of Piedmont and of the Metropolitan City of Turin, and was the first Italian capital from 1861 to 1865. The city is mainly on the
+        western bank of the Po River, below its Susa Valley, and is surrounded by the western Alpine arch and Superga Hill. The population of the city proper is 849,795 (30 November 2020) while the population of the
+        urban area is estimated by Eurostat to be 1.7 million inhabitants. The Turin metropolitan area is estimated by the OECD to have a population of 2.2 million.
+    </string>
+    <string name="viena">
+Vienna is the national capital, largest city, and one of nine states of Austria. Vienna is Austria
+        most populous city, with about 1.9 million inhabitants (2.6 million within the metropolitan area, nearly one third of the country population),
+        and its cultural, economic, and political center. It is the 6th-largest city by population within city limits in the European Union.
+
+Until the beginning of the 20th century, Vienna was the largest German-speaking city in the world, and before the splitting of the Austro-Hungarian Empire in World War I,
+        the city had 2 million inhabitants.[11] Today, it is the second-largest German-speaking city after Berlin.
+    </string>
+    <string name="warsaw">
+Warsaw is the capital and largest city of Poland. The metropolis stands on the Vistula River in east-central
+        Poland and its population is officially estimated at 1.8 million residents within a greater metropolitan
+        area of 3.1 million residents, which makes Warsaw the 7th most-populous capital city in the European Union.
+        The city area measures 517.24 square kilometres (199.71 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.39 sq mi).[4] Warsaw is an alpha-global city,
+        a major international tourist destination, and a significant cultural, political, and economic hub.
+        Its historical Old Town was designated a UNESCO World Heritage Site.
+    </string>
+    <string name="zagreb">
+Zagreb is the
+        capital and largest city of Croatia. It is in the northwest of the country, along the Sava river, at the southern slopes of
+        the Medvednica mountain. Zagreb lies at an elevation of approximately 122 m (400 ft) above sea level.
+        The estimated population of the city in 2018 was 804,507. The population of the Zagreb urban agglomeration is 1,153,255, approximately a quarter of the total population of Croatia.
+    </string>
+    <string name="rate">Rate our application</string>
+    <string name="value">0/100</string>
+    <string name="want">Wanna tell us something?</string>
+
+
+    <string-array name="cities">
+        <item>None</item>
+        <item>Alessandria</item>
+
+        <item>Amsterdam</item>
+        <item>Athens</item>
+        <item>Berlin</item>
+        <item>Belgrade</item>
+        <item>Brussels</item>
+        <item>Dortmund</item>
+        <item>Budapest</item>
+        <item>Paris</item>
+        <item>Istanbul</item>
+
+        <item>Madrid</item>
+        <item>Rome</item>
+        <item>Vienna</item>
+        <item>Hamburg</item>
+        <item>Madrid</item>
+        <item>Vienna</item>
+        <item>Hamburg</item>
+        <item>Warsaw</item>
+        <item>Barcelona</item>
+        <item>Munich</item>
+        <item>Milan</item>
+        <item>Prague</item>
+        <item>Sofia</item>
+        <item>Cologne</item>
+        <item>Stockholm</item>
+        <item>Naples</item>
+        <item>Turin</item>
+        <item>Zagreb</item>
+        <item>Copenhagen</item>
+        <item>Valencia</item>
+        <item>Kraków</item>
+        <item>Frankfurt</item>
+        <item>Seville</item>
+        <item>Łódź</item>
+        <item>Zaragoza</item>
+        <item>Athens</item>
+        <item>Frankfurt</item>
+        <item>Palermo</item>
+        <item>Helsinki</item>
+        <item>Rotterdam</item>
+        <item>Wrocław</item>
+        <item>Stuttgart</item>
+        <item>Riga</item>
+        <item>Dublin</item>
+        <item>Lisbon</item>
+        <item>Bratislava</item>
+        <item>Bologna</item>
+        <item>Florence</item>
+        <item>Iași</item>
+        <item>Lublin</item>
+        <item>Varna</item>
+        <item>Timișoara</item>
+        <item>Thessaloniki</item>
+        <item>Cluj-Napoca</item>
+        <item>Bari</item>
+        <item>Constanța</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myprofile">My profile</string>
+</resources>

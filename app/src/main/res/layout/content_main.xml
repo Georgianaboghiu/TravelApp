@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fl_container"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/armata"
+        android:text="ADVENTURE AWAITS!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_wha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/armata"
+        android:text="22 years | ADMIN"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView8"-->
+    <!--        android:layout_width="846dp"-->
+    <!--        android:layout_height="159dp"-->
+    <!--        app:srcCompat="@drawable/curcubeu2" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView11"-->
+    <!--        android:layout_width="71dp"-->
+    <!--        android:layout_height="221dp"-->
+    <!--        app:srcCompat="@drawable/curcubeu3" />-->
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/fundal1" />
+
+    <ImageView
+        android:id="@+id/update_user"
+
+        android:layout_width="43dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/userr" />
+
+
+</FrameLayout>

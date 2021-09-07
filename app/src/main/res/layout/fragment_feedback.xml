@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FeedbackFragment"
+    android:id="@+id/feedback_container"
+    android:background="@color/whiteMain"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp"
+        android:background="@color/whiteMain"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/armata"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="@string/rate"
+            android:id="@+id/tv_rate"
+            android:layout_margin="24dp"
+            android:textAlignment="center"
+            />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:progressDrawable="@color/yellow"
+            android:thumb="@drawable/thumb"
+            android:id="@+id/seekBarFeedback"
+            android:progress="0"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/armata"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="@string/value"
+            android:id="@+id/tv_valueFeedback"
+            android:layout_margin="24dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/armata"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="@string/want"
+            android:id="@+id/tv_tell"
+            android:layout_margin="24dp"
+            android:textAlignment="center"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_feedback"
+            android:textColor="#000"
+            android:layout_centerInParent="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/whiteMain"
+            android:background="@drawable/circlebutton"
+            android:layout_marginTop="60dp"
+            android:textSize="18dp"
+            android:id="@+id/submit_feedback"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

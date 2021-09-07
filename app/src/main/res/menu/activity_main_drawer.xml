@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single"
+
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_mytrip"
+            android:icon="@drawable/ic_baseline_person_pin_circle_24"
+            android:title="My trips" />
+
+        <item
+            android:id="@+id/nav_surround"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Surroundings" />
+
+        <item
+            android:id="@+id/nav_checklist"
+            android:icon="@drawable/ic_baseline_checklist_rtl_24"
+            android:title="Check list" />
+
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Currency converter" />
+        <item
+            android:id="@+id/mav_weather"
+            android:icon="@drawable/ic_baseline_wb_sunny_24"
+            android:title="Weather" />
+
+
+
+    </group>
+
+    <group  android:checkableBehavior="none"
+        android:id="@+id/group2"
+        >
+
+        <item
+            android:id="@+id/main_nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Give Feedback" />
+
+        <item
+            android:id="@+id/main_nav_logout"
+            android:icon="@drawable/ic_baseline_arrow_back_24"
+            android:title="Log out" />
+    </group>
+</menu>

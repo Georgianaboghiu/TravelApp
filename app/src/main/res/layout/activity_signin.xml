@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LogInActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgViewCar3"
+        android:layout_width="167dp"
+        android:layout_height="119dp"
+        android:src="@drawable/crr"
+        android:transitionName="logo_image" />
+
+    <LinearLayout
+        android:id="@+id/lncreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        >
+        <TextView
+            android:id="@+id/tvcreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started!"
+            android:textColor="@color/caram"
+            android:textSize="30sp"
+            android:fontFamily="@font/carter_one"
+            android:transitionName="logo_text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/et_firstname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="enter first name"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/et_lastname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="enter last name"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="enter age"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/h_pass"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/et_repassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="reenter password"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/circlebutton"
+        android:id="@+id/btn_save"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="create account"
+        android:textColor="@color/caram"
+        android:fontFamily="@font/armata"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
